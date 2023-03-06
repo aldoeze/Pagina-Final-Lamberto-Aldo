@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>League of Legeds</title>
+    <link rel="shortcut icon" href="img/iconolol.ico">
+    <link rel="stylesheet" href="css/sesion.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+    </head>
+  <body background="img/fondo2.jpg">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>    
+<!-----Barra de navegacíon -->
+
+  <div class="container-fluid bg-primary">
+    <div class="container">
+    <nav class="sticky-top navbar navbar-expand-lg  navbar-dark" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html"><img src="img/iconolol2.ico" width="" height="" alt="lol"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="Index.html">Inicio
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="objetos.html">Objetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#redes">Contáctenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="campeones.html">Campeones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#"><button type="button" class="btn btn-outline-dark text-warning">INICIAR SESION</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" download="LoL" href="descarga/lol.zip"><button type="button" class="btn btn-outline-dark">JUGAR AHORA</button></a>
+          </ul>
+          
+          </li>
+        </div>
+      </div>
+     </nav>
+    </div>
+ </div>
+ <br>
+ <!----------------------------------------------------------- --->
+ <script type="text/javascript">
+  function Create()
+  {
+    window.alert("No disponible por el momento");
+  }
+  function Confirm()
+  {
+   
+      window.alert("has Ingresado correctamente");
+   
+   }
+  </script>
+ <!-----Formulario de inicio de sesion  -->
+ <br>
+ <div class="container text-center">
+  <div class="row">
+    <div class="col">
+     </div>
+    <div class="col">
+      <section class="form-register">
+        <h4 style="color:black ;" >Inicie</h4>
+        <form method= action="">
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre y apellido" required maxlength="20">
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required maxlength="30">
+        <input class="controls" type="password" name="asunto" id="Asunto" placeholder="Ingrese su Contraseña" required maxlength="20">
+        <p style="color:black ;">Estoy de acuerdo con <a href="descarga/terminos.pdf">Terminos y Condiciones</a></p>
+        <input class="botons" type="submit" value="Ingresar" onclick="return Confirm()">
+        <p><a href="#" onclick="return Create()">Cree su Cuenta</a></p>
+          </section>
+        </form>
+    </div>
+    <div class="col">
+          </div>
+  </div>
+</div>
+ <!------------------------------------------------------------------->
+ <div id="pie">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,192L48,176C96,160,192,128,288,112C384,96,480,96,576,101.3C672,107,768,117,864,106.7C960,96,1056,64,1152,42.7C1248,21,1344,11,1392,5.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  </div>
+  <footer>
+   <div class="container text-center">
+      <div class="row">
+        <div class="col" >
+          <h3 id="redes">Redes Sociales</h3>
+          <a href="https://www.facebook.com/leagueoflegends"><img id="contacto" src="img/facebook.png" alt="" ><hr><br></a>
+          <a href="https://www.leagueoflegends.com/es-mx/"><img id="contacto" src="img/iconolol2.ico" alt=""><hr><br></a>
+          <a href="https://www.instagram.com/leagueoflegends/"><img id="contacto" src="img/iconoinsta.png" alt=""><hr><br></a>
+          <a href="https://web.whatsapp.com/"><img id="contacto" src="img/wha.ico" alt=""><hr><br></a>
+          </div>
+        <div class="col">
+          <p  class="texto2 fs-5">Lamberto Aldo todos los derechos reservados. copyright © 2022</p>
+          <a href="#menu"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
+          </svg></i></a>
+        </div>
+        <div class="col">
+          <p id="formulario"></p>
+          <div class="col">
+            </div>
+      </div>
+    </div>
+    </footer>
+ 
